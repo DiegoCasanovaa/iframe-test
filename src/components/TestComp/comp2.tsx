@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useRecoilState, useSetRecoilState } from 'recoil'
-import { RouteState } from '../../context/RoutesContext'
+import { RouteState } from '../../context/RouteAtom'
 
 export const Comp2 = () => {
     const [state, setStateList] = useRecoilState(RouteState);

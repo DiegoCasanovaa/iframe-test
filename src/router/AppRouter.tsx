@@ -12,7 +12,7 @@ import { NavBar } from '../components/nav-bar/NavBar';
 import { Comp1 } from '../components/TestComp/comp1';
 import { Comp2 } from '../components/TestComp/comp2';
 import { Comp3 } from '../components/TestComp/comp3';
-import { RouteState } from '../context/RoutesContext';
+import { RouteState } from '../context/RouteAtom';
 
 export const AppRouter = () => {
 

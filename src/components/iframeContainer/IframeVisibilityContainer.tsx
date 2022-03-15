@@ -1,6 +1,6 @@
 import React from 'react'
 import { useRecoilValue } from 'recoil';
-import { RouteState } from '../../context/RoutesContext';
+import { RouteState } from '../../context/RouteAtom';
 import { IFrameProp } from './IframeProps.interface';
 
 export const IframeVisibilityContainer = ({children}:IFrameProp) => {
