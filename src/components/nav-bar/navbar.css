@@ -1,0 +1,35 @@
+.navBar{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: blue;
+}
+
+.navContainer{
+    width: 100%;
+}
+
+.navContent{
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.navOption{
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+    background-color: indigo;
+    border-radius: 12px;
+    width: 100px;
+    height: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.navOption:hover{
+    background-color: rgb(54, 0, 92);
+}
